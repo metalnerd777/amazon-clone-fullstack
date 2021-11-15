@@ -1,0 +1,95 @@
+.login {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  object-fit: contain;
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.login__container {
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+.login__container > h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.login__container > form > h5 {
+  margin-bottom: 5px;
+}
+.login__container > form > input {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 98%;
+}
+.login__container > p {
+  margin-top: 15px;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+.login_signInButton {
+  background-color: #f0c14b;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  color: #111;
+}
+
+.login_registerButton {
+}
+
+.login__newAccount {
+  margin-top: 20px;
+  color: grey;
+  align-items: center;
+}
+.login__newAccount > h6::before,
+h6::after {
+  display: inline-block;
+  content: "";
+  border-top: 1px solid grey;
+  width: 100px;
+  margin: 0 1rem;
+  transform: translateY(-1rem);
+  align-items: center;
+}
+.login__newAccount > button {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid rgb(180, 179, 179);
+  border-radius: 10px;
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  color: #111;
+  margin-bottom: 40px;
+}
+
+.login__end > a {
+  text-decoration: none;
+  color: #2f82cb;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+.login > h3 {
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  color: grey;
+}
